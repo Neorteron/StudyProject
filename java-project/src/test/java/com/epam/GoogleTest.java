@@ -1,21 +1,20 @@
 package com.epam;
 
 import Webdriver.DriverSingleton;
+import com.github.hardnorth.common.config.ConfigLoader;
+import com.github.hardnorth.common.config.ConfigProvider;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-import static com.codeborne.selenide.Selenide.*;
 
 public class GoogleTest {
 
     @Test
     public void openGoogleSearchPage(){
-        //open("https://www.google.com/");
-        //$(By.name("q")).setValue("Selenide").pressEnter();
-        WebDriver driver = DriverSingleton.getDriver();
-        driver.get("https://www.google.com/");
+
+         ConfigProvider Provider = new ConfigLoader().get();
+         WebDriver driver = DriverSingleton.getDriver();
+         driver.get(Provider.getProperty("testdata.startPage.value", String.class));
 
     }
 
