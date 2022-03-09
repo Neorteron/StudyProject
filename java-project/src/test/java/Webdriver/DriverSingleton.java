@@ -31,6 +31,11 @@ public class DriverSingleton {
                     driver = new OperaDriver();
                     break;
                 }
+                case "Chrome": {
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                }
             }
             driver.manage().window().maximize();
         }
