@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.GoogleTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.574 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.653 sec

@@ -1,0 +1,7 @@
+
+java-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+java-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+java-project/target/surefire-reports/com.epam.GoogleTest.txt
+java-project/target/surefire-reports/TEST-com.epam.GoogleTest.xml
+java-project/target/test-classes/com/epam/Bubble.class
+java-project/target/test-classes/com/epam/Fibonacci.class

@@ -1,3 +1,4 @@
-com\epam\Bubble.class
 Webdriver\DriverSingleton.class
 com\epam\GoogleTest.class
+com\epam\Bubble.class
+com\epam\Fibonacci.class
