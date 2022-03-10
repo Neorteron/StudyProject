@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bubble {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in); // Объявляем Scanner
+        Scanner input = new Scanner(System.in);
         System.out.println("Длинна массива: ");
         int size = input.nextInt();
         int array[] = new int[size];
