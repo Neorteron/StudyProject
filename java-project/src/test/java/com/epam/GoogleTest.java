@@ -11,14 +11,8 @@ public class GoogleTest {
 
     @Test
     public void openGoogleSearchPage(){
-
          ConfigProvider Provider = new ConfigLoader().get();
          WebDriver driver = DriverSingleton.getDriver();
          driver.get(Provider.getProperty("testdata.startPage.value", String.class));
-
     }
-
-
-
-
 }
